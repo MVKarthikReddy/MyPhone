@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/code_generator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="0dp"
+    android:gravity="center"
+    tools:context=".GenerateCode">
+
+    <include layout="@layout/generatecode_actionbar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="generate your 4 digit code"
+            android:textColor="#00A4F6"
+            android:textSize="25dp"
+            />
+
+        <Button
+            android:id="@+id/generate_code"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+
+            android:background="@drawable/useful_button"
+            android:text="Generate_code" />
+    </LinearLayout>
+</LinearLayout>

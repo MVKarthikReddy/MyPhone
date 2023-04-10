@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditProfileActivity">
+    <include layout="@layout/editprofile_actionbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_person_outline_24"/>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="First Name :"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+        <EditText
+            android:id="@+id/edited_first_Name"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter first name"
+            android:textColor="#000"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/linear_ll"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_person_outline_24"/>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Last Name :"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+        <EditText
+            android:id="@+id/edited_last_Name"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter last name"
+            android:textColor="#000"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/linear_ll"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_phone_24"/>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Phone no   :"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+        <EditText
+            android:id="@+id/edited_phNm"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter mobile number"
+            android:textColor="#000"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/linear_ll"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+        <Button
+            android:id="@+id/add_profile"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+
+            android:background="@drawable/useful_button"
+            android:text="Add profile photo" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/linear_ll"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+        <Button
+            android:id="@+id/save_profile"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+
+            android:background="@drawable/useful_button"
+            android:text="save" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/linear_ll"/>
+
+
+
+
+
+</LinearLayout>

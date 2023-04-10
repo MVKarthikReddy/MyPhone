@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/akaya_telivigala</item>
+        <item>@font/akronim</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/dancing_script_bold</item>
+        <item>@font/julee</item>
+        <item>@font/leckerli_one</item>
+        <item>@font/ma_shan_zheng</item>
+        <item>@font/pacifico</item>
+        <item>@font/rancho</item>
+    </array>
+</resources>

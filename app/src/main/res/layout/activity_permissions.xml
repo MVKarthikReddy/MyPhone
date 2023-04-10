@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".PermissionsActivity"
+    >
+    <include layout="@layout/permissions_action_bar"/>
+
+
+
+
+
+    <Button
+        android:id="@+id/permissions_for_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:padding="10dp"
+        android:text="permission for sms"
+
+         android:background="@drawable/linear_layout_design"/>
+
+    <Button
+        android:id="@+id/perissions_for_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+
+        android:text="perimssion_for_contacts"
+        android:padding="10dp"
+        android:background="@drawable/linear_layout_design"
+         />
+
+    <Button
+        android:id="@+id/permission_for_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="permission_for_location"
+        android:padding="10dp"
+        android:background="@drawable/linear_layout_design"
+         />
+
+    <Button
+        android:id="@+id/permisson_for_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="permission_for_lock"
+        android:padding="10dp"
+        android:background="@drawable/linear_layout_design"
+         />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_circle_24"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  --> Granted"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/not_granted"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  --> Not Granted"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

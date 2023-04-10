@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <include layout="@layout/homefragment_actionbar"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:orientation="vertical"
+        android:paddingRight="15dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/homefragment_design"
+            android:layout_marginBottom="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:text="Click "/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/user_manual"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="  for user manual"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gen_text"
+            android:text=""
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:background="@drawable/homefragment_design"
+            />
+
+        <TextView
+            android:id="@+id/gen_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Tap here to generate your code "
+            android:textColor="#000"
+            android:background="@drawable/useful_button"
+            android:padding="20dp"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4e7dd3"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="44dp"
+        android:fontFamily="@font/rancho"
+        android:text="Create new account"
+        android:textColor="@color/white"
+        android:textColorHint="#b8b1b1"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/edittext_design"
+        android:drawableStart="@drawable/ic_user"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColorHint="#b8b1b1" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="101dp"
+        android:background="@drawable/edittext_design"
+        android:drawableStart="@drawable/ic_user"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColorHint="#b8b1b1" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/edittext_design"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:ems="10"
+        android:hint="Email"
+        android:textColorHint="#b8b1b1"
+        android:inputType="textPersonName"
+        android:padding="9dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Phone_num"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/edittext_design"
+        android:drawableStart="@drawable/ic_baseline_lock_open_24"
+        android:ems="10"
+        android:hint="Password"
+        android:textColorHint="#b8b1b1"
+        android:inputType="textPassword"
+        android:padding="9dp" />
+
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/edittext_design"
+        android:drawableStart="@drawable/ic_baseline_lock_open_24"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:textColorHint="#b8b1b1"
+        android:inputType="textPassword"
+        android:padding="9dp" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="173dp"
+        android:layout_height="75dp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/confirmPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="110dp"
+        android:background="@drawable/useful_button"
+        android:text="Sign up"
+        android:textColor="#4e7dd3"/>
+
+    <EditText
+        android:id="@+id/Phone_num"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/edittext_design"
+        android:drawableStart="@drawable/ic_baseline_phone_24"
+        android:ems="10"
+        android:hint="phone num"
+        android:textColorHint="#b8b1b1"
+        android:inputType="textPersonName"
+        android:padding="9dp" />
+
+</RelativeLayout>

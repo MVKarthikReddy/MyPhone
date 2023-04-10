@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:orientation="vertical"
+android:background="#fff"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <include layout="@layout/settings_actionbar"
+        />
+
+    <LinearLayout
+        android:id="@+id/grant_permisssions"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_ads_click_24"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grant Permissions"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/linear_ll"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/change_password"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_lock_24"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Password"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/linear_ll"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/linear_ll"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/support_agent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_support_agent_24"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact us"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_info_24"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/linear_ll"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/log_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="100dp"
+            android:paddingLeft="100dp"
+            android:textAllCaps="false"
+            android:background="@drawable/useful_button"
+            android:text="Log Out" />
+
+        <Button
+            android:id="@+id/close_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="100dp"
+            android:paddingLeft="100dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/useful_button"
+            android:text="Delete Account" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

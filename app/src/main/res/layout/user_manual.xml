@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What can we do?"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/homefragment_design">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="10dp"
+            android:id="@+id/user_manual"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Command Formats:"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/homefragment_design">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For all commands:"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text=" Myphone"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Result :"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:text="all commands will be displayed"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:text="Ex: "
+                android:textColor="@color/black"
+                />
+
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_marginLeft="13dp"
+                android:layout_height="250dp"
+                android:src="@drawable/help_format"
+                android:layout_marginBottom="15dp"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+            android:layout_marginTop="20dp"
+        android:background="@drawable/homefragment_design">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="For Contacts:"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/contact_format"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text=""
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result :"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="contact_number"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:text="Ex: "
+            android:textColor="@color/black"
+            />
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_marginLeft="13dp"
+            android:layout_height="250dp"
+            android:src="@drawable/contact_format"
+            android:layout_marginBottom="15dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/homefragment_design">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="For Location:"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text=" Myphone { 4 digit code } getlocation"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result :"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="google maps link of the current location of the mobile will be appear"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:text="Ex: "
+            android:textColor="@color/black"
+            />
+
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_marginLeft="13dp"
+            android:layout_height="250dp"
+            android:src="@drawable/location_format"
+            android:layout_marginBottom="15dp"
+            />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/homefragment_design">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To ring phone:"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text=" Myphone { 4 digit code } ringphone"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Result :"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:text="your phone will make sound"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:text="Ex: "
+                android:textColor="@color/black"
+                />
+
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_marginLeft="13dp"
+                android:layout_height="250dp"
+                android:src="@drawable/ring_format"
+                android:layout_marginBottom="15dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/homefragment_design">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To lock screen:"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text=" Myphone { 4 digit code } lockscreen"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Result :"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:text="your phone will be locked"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:text="Ex: "
+                android:textColor="@color/black"
+                />
+
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_marginLeft="13dp"
+                android:layout_height="250dp"
+                android:src="@drawable/lock_format"
+                android:layout_marginBottom="15dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/homefragment_design">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To change 4 digit code:"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text=" Myphone { 4 digit code } changecode"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Result :"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:text="New 4 digit code will be generated and sent to your mobile"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:text="Ex: "
+                android:textColor="@color/black"
+                />
+
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_marginLeft="13dp"
+                android:layout_height="250dp"
+                android:src="@drawable/location_format"
+                android:layout_marginBottom="15dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
