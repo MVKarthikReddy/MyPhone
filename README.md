@@ -1,6 +1,6 @@
 # MyPhone
 
-This README provides an overview of the FindMyPhone Android Application, a versatile tool developed to aid users in locating their missing phones, accessing contacts, ringing the phone, and locking the phone remotely using SMS services. The app leverages location services and various functionalities to enhance phone retrieval and security.
+This README provides an overview of the MyPhone Android Application, a versatile tool developed to aid users in locating their missing phones, accessing contacts, ringing the phone, and locking the phone remotely using SMS services. The app leverages location services and various functionalities to enhance phone retrieval and security.
 
 ## Table of Contents
 
