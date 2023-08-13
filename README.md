@@ -11,8 +11,9 @@ This README provides an overview of the FindMyPhone Android Application, a versa
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [SMS Commands](#sms-commands)
+- [Firebase Integration](#firbase-integration)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
