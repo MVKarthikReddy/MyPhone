@@ -61,7 +61,6 @@ To interact with the lost phone remotely, send SMS commands to the lost device:
 
 - **Location**: Send the location command keyword to receive the current GPS coordinates.
         ![ContactFormat](https://imgur.com/fQvxXeU)
-
 - **Contacts**: Send the contacts command keyword to receive a list of stored contacts.
 - **Ring**: Send the ring command keyword to make the phone ring at maximum volume.
 - **Lock**: Send the lock command keyword to remotely lock the phone.
