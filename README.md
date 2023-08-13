@@ -16,8 +16,7 @@ This README provides an overview of the FindMyPhone Android Application, a versa
 
 ## Introduction
 
-The FindMyPhone Android App is a powerful application designed to assist users in locating their misplaced phones by sending specific SMS commands from another mobile device. Beyond just location tracking, the app also provides other handy features like accessing contacts, ringing the phone, and remotely locking the phone via SMS services.
-
+ This is an android application which is useful in finding missing phones by accessing location of the mobile using another mobile through sms services and also have some other interesting features like accessing contacts, ringing the phone and can lock phone by just sending an sms.
 ## Features
 
 - **Location Tracking**: Send an SMS command to retrieve the lost phone's current location using GPS.
@@ -65,6 +64,10 @@ To interact with the lost phone remotely, send SMS commands to the lost device:
 - **Ring**: Send the ring command keyword to make the phone ring at maximum volume.
 - **Lock**: Send the lock command keyword to remotely lock the phone.
 
+## Firebase Integration
+
+The app uses Firebase for authentication and SMS services. Make sure to set up the required Firebase services and integrate them into the app.
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or want to enhance the app, feel free to create a pull request.
@@ -74,11 +77,3 @@ Contributions are welcome! If you find any issues or want to enhance the app, fe
 3. Commit your changes: `git commit -m "Add feature XYZ"`.
 4. Push to the branch: `git push origin feature/your-feature-name`.
 5. Create a pull request explaining your changes.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Customize this README according to your project's specific details. Update placeholders like `your-username`, SMS command keywords, and any other relevant information. Ensure that you provide clear instructions for users to understand how to utilize the app effectively. Happy development!
