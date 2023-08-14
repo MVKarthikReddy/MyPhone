@@ -25,7 +25,6 @@ This README provides an overview of the MyPhone Android Application, a versatile
 - **Remote Ringing**: Make the lost phone ring at maximum volume using an SMS command.
 - **Remote Locking**: Lock the lost phone remotely by sending an SMS command.
 - **User-Friendly Interface**: Intuitive UI/UX design for seamless navigation and operation.
-- **Customizable SMS Keywords**: Users can customize keywords used for different commands.
 
 ## Prerequisites
 
