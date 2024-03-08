@@ -66,12 +66,7 @@ To interact with the lost phone remotely, send SMS commands to the lost device:
 
 The app uses Firebase for authentication and SMS services. Make sure to set up the required Firebase services and integrate them into the app.
 
-## Contributing
+![WhatsApp Image 2024-03-08 at 21 00 20_e82cfd73](https://github.com/MVKarthikReddy/MyPhone/assets/101353332/a36c0c0a-1236-4503-9f57-a6c549d4d140)
 
-Contributions are welcome! If you find any issues or want to enhance the app, feel free to create a pull request.
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature-name`.
-3. Commit your changes: `git commit -m "Add feature XYZ"`.
-4. Push to the branch: `git push origin feature/your-feature-name`.
-5. Create a pull request explaining your changes.
+![WhatsApp Image 2024-03-08 at 21 00 21_7de426fd](https://github.com/MVKarthikReddy/MyPhone/assets/101353332/9aff943b-aacd-48d6-9413-9b4adc339b8c)
+![WhatsApp Image 2024-03-08 at 21 00 21_405e9eb2](https://github.com/MVKarthikReddy/MyPhone/assets/101353332/f832788b-eca2-47e8-89da-72f6afd485aa)
